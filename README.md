@@ -1,7 +1,7 @@
 docker-heartbleed
 =================
 
-Dockerfile to install and run heartbleed.
+Dockerfile to install and run heartbleed (https://github.com/FiloSottile/Heartbleed).
 
 Usage:
 

@@ -18,7 +18,7 @@ Usage:
 
   4) (optional) Create alias:
 
-    $ alias heartbleed=docker run <yourname>/heartbleed
+    $ alias heartbleed="docker run <yourname>/heartbleed"
     $ heartbleed github.com:443
     2014/04/09 10:37:28 github.com:443 - SAFE
 

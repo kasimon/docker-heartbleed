@@ -13,12 +13,12 @@ Usage:
 
   3) Run Heartbleed from image:
 
-     $ docker run <yourname>/heartbleed github.com:443
+     $ docker run --rm <yourname>/heartbleed github.com:443
      2014/04/09 10:37:28 github.com:443 - SAFE
 
   4) (optional) Create alias:
 
-    $ alias heartbleed="docker run <yourname>/heartbleed"
+    $ alias heartbleed="docker run --rm <yourname>/heartbleed"
     $ heartbleed github.com:443
     2014/04/09 10:37:28 github.com:443 - SAFE
 

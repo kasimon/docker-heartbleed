@@ -1,11 +1,11 @@
 FROM debian:wheezy
-AUTHOR Karsten Heymann <karsten.heymann@gmail.com>
+MAINTAINER Karsten Heymann <karsten.heymann@gmail.com>
 
 RUN apt-get update
-RUN apt-get install -y wget git
+RUN apt-get install -y git
 
-RUN wget http://go.googlecode.com/files/go1.2.1.linux-amd64.tar.gz
-RUN tar xfvz go1.2.1.linux-amd64.tar.gz
+ADD http://go.googlecode.com/files/go1.2.1.linux-amd64.tar.gz /
+RUN tar xfz go1.2.1.linux-amd64.tar.gz
 
 ENV GOPATH /
 ENV GOROOT /go

@@ -9,7 +9,7 @@ Usage:
 
   2) Build heartbleed image once:
 
-     docker build -t <yourname>/heartbleed https://github.com/kasimon/docker-heartbleed.git
+     docker build -t <yourname>/heartbleed github.com/kasimon/docker-heartbleed
 
   3) Run Heartbleed from image:
 

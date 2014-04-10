@@ -25,7 +25,10 @@ Usage:
   5) (optional) Publish image in [docker index][3]. After publishing you can skip steps 2 and 3 on different nodes:
   
     $  docker push <yourname>/heartbleed
+    
+There also exists another dockerized version of heartbleed based on ubuntu ([mazzolino/heartbleed-docker][4]) on the docker index.
 
   [1]: https://github.com/FiloSottile/Heartbleed
   [2]: https://www.docker.io/gettingstarted/#h_installation
   [3]: https://index.docker.io/
+  [4]: https://index.docker.io/u/mazzolino/heartbleed-docker/

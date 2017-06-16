@@ -9,12 +9,12 @@ Usage:
 
   2) Build heartbleed image once:
 
-     docker build -t <yourname>/heartbleed github.com/kasimon/docker-heartbleed
+    docker build -t <yourname>/heartbleed github.com/kasimon/docker-heartbleed
 
   3) Run Heartbleed from image:
 
-     $ docker run --rm <yourname>/heartbleed github.com:443
-     2014/04/09 10:37:28 github.com:443 - SAFE
+    $ docker run --rm <yourname>/heartbleed github.com:443
+    2014/04/09 10:37:28 github.com:443 - SAFE
 
   4) (optional) Create alias:
 
